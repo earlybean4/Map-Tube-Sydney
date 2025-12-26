@@ -1,7 +1,7 @@
 package Map::Tube::Sydney::Line::M1;
 
 $Map::Tube::Sydney::Line::Central::VERSION   = '1.00';
-$Map::Tube::Sydney::Line::Central::AUTHORITY = 'cpan:EARLYBEAN4';
+$Map::Tube::Sydney::Line::Central::AUTHORITY = 'cpan:EARLYBEAN';
 
 use 5.006;
 use strict; use warnings;
