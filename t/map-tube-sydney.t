@@ -41,3 +41,5 @@ Route 22|East Hills|Villawood|East Hills,Holsworthy,Glenfield,Casula,Liverpool,W
 Route 23|Bankstown|Villawood|Bankstown,Yagoona,Birrong,Regents Park,Sefton,Chester Hill,Leightonfield,Villawood
 Route 24|Town Hall|Museum|Town Hall,Central,Museum
 Route 25|QVB|Haymarket|QVB,Town Hall,Chinatown,Haymarket
+Route 26|Redfern|Katoomba|Redfern,Strathfield,Parramatta,Blacktown,Penrith,Emu Plains,Lapstone,Glenbrook,Blaxland,Warrimoo,Valley Heights,Springwood,Faulconbridge,Linden,Woodford,Hazelbrook,Lawson,Bullaburra,Wentworth Falls,Leura,Katoomba
+Route 27|Bullaburra|Central|Bullaburra,Lawson,Hazelbrook,Woodford,Linden,Faulconbridge,Springwood,Valley Heights,Warrimoo,Blaxland,Glenbrook,Lapstone,Emu Plains,Penrith,Blacktown,Parramatta,Strathfield,Redfern,Central

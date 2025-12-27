@@ -102,11 +102,13 @@ given nodes. It covers the following rail lines:
 
 =item * L<L4 Line|Map::Tube::Sydney::Line::L4>
 
+=item * L<BMT Line|Map::Tube::Sydney::Line::BMT>
+
 =back
 
 =head1 CONSTRUCTOR
 
-The constructor DOES NOT expects parameters.This setup the default node definitions.
+The constructor DOES NOT expects parameters. This setup the default node definitions.
 
     use strict; use warnings;
     use Map::Tube::Sydney;

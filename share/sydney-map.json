@@ -15,6 +15,7 @@
       { "id": "L2", "name": "L2", "color": "#dd1e25" },
       { "id": "L3", "name": "L3", "color": "#781140" },
       { "id": "L4", "name": "L4", "color": "#e4022d" },
+      { "id": "BMT", "name": "BMT", "color": "#f99d1c" },
       { "id": "Walk1", "name": "Walk1", "color": "#000000" },
       { "id": "Walk2", "name": "Walk2", "color": "#000000" },
       { "id": "Walk3", "name": "Walk3", "color": "#000000" },
@@ -411,20 +412,20 @@
       {
         "id": "T124",
         "name": "Central",
-        "line": "T1,T2,T3,T4,T8,T9,M1,Walk1,Walk4",
+        "line": "T1,T2,T3,T4,T8,T9,M1,BMT,Walk1,Walk4",
         "link": "T123,T125,T201,T803,M115,M116,L101,L205"
       },
       {
         "id": "T125",
         "name": "Redfern",
-        "line": "T1,T2,T3,T4,T8,T9",
+        "line": "T1,T2,T3,T4,T8,T9,BMT",
         "link": "T124,T126,T204,T212,T405,T801"
       },
       {
         "id": "T126",
         "name": "Strathfield",
-        "line": "T1,T2,T3,T9",
-        "link": "T125,T127,T212,T213,T901"
+        "line": "T1,T2,T3,T9,BMT",
+        "link": "T125,T127,T212,T213,T901,T128"
       },
       {
         "id": "T127",
@@ -435,8 +436,8 @@
       {
         "id": "T128",
         "name": "Parramatta",
-        "line": "T1,T2,T5,Walk5",
-        "link": "T218,T129,L408"
+        "line": "T1,T2,T5,BMT,Walk5",
+        "link": "T218,T129,L408,T126,T134"
       },
       {
         "id": "T129",
@@ -471,8 +472,8 @@
       {
         "id": "T134",
         "name": "Blacktown",
-        "line": "T1,T5",
-        "link": "T133,T135,T143"
+        "line": "T1,T5,BMT",
+        "link": "T133,T135,T143,T128,T141"
       },
       { "id": "T135", "name": "Doonside", "line": "T1", "link": "T134,T136" },
       { "id": "T136", "name": "Rooty Hill", "line": "T1", "link": "T135,T137" },
@@ -485,8 +486,8 @@
       { "id": "T138", "name": "St Marys", "line": "T1", "link": "T137,T139" },
       { "id": "T139", "name": "Werrington", "line": "T1", "link": "T138,T140" },
       { "id": "T140", "name": "Kingswood", "line": "T1", "link": "T139,T141" },
-      { "id": "T141", "name": "Penrith", "line": "T1", "link": "T140,T142" },
-      { "id": "T142", "name": "Emu Plains", "line": "T1", "link": "T141" },
+      { "id": "T141", "name": "Penrith", "line": "T1,BMT", "link": "T140,T142,T134" },
+      { "id": "T142", "name": "Emu Plains", "line": "T1,BMT", "link": "T141,LAP" },
       {
         "id": "T143",
         "name": "Marayong",
@@ -879,7 +880,28 @@
         "link": "T910,T912"
       },
       { "id": "T912", "name": "Thornleigh", "line": "T9", "link": "T911,T913" },
-      { "id": "T913", "name": "Normanhurst", "line": "T9", "link": "T912,T105" }
+      { "id": "T913", "name": "Normanhurst", "line": "T9", "link": "T912,T105" },
+      { "id": "LAP", "name": "Lapstone", "line": "BMT", "link": "T142,GBR" },
+      { "id": "GBR", "name": "Glenbrook", "line": "BMT", "link": "LAP,BXD" },
+      { "id": "BXD", "name": "Blaxland", "line": "BMT", "link": "GBR,WRM" },
+      { "id": "WRM", "name": "Warrimoo", "line": "BMT", "link": "BXD,VHS" },
+      { "id": "VHS", "name": "Valley Heights", "line": "BMT", "link": "WRM,SPR" },
+      { "id": "SPR", "name": "Springwood", "line": "BMT", "link": "VHS,FLB" },
+      { "id": "FLB", "name": "Faulconbridge", "line": "BMT", "link": "SPR,LND" },
+      { "id": "LND", "name": "Linden", "line": "BMT", "link": "FLB,WFO" },
+      { "id": "WFO", "name": "Woodford", "line": "BMT", "link": "LND,HZK" },
+      { "id": "HZK", "name": "Hazelbrook", "line": "BMT", "link": "WFO,LWN" },
+      { "id": "LWN", "name": "Lawson", "line": "BMT", "link": "HZK,BUB" },
+      { "id": "BUB", "name": "Bullaburra", "line": "BMT", "link": "LWN,WFS" },
+      { "id": "WFS", "name": "Wentworth Falls", "line": "BMT", "link": "BUB,LEU" },
+      { "id": "LEU", "name": "Leura", "line": "BMT", "link": "WFS,KTO" },
+      { "id": "KTO", "name": "Katoomba", "line": "BMT", "link": "LEU,MED" },
+      { "id": "MED", "name": "Medlow Bath", "line": "BMT", "link": "KTO,BKE" },
+      { "id": "BKE", "name": "Blackheath", "line": "BMT", "link": "MED,MVR" },
+      { "id": "MVR", "name": "Mount Victoria", "line": "BMT", "link": "BKE,BEL" },
+      { "id": "BEL", "name": "Bell", "line": "BMT", "link": "MVR,ZIG" },
+      { "id": "ZIG", "name": "Zig Zag", "line": "BMT", "link": "BEL,LTH" },
+      { "id": "LTH", "name": "Lithgow", "line": "BMT", "link": "ZIG" }
     ]
   }
 }
