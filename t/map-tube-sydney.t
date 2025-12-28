@@ -28,7 +28,7 @@ Route 9|Clyde|Guildford|Clyde,Granville,Merrylands,Guildford
 Route 10|Central|Macdonaldtown|Central,Redfern,Macdonaldtown
 Route 11|Central|Burwood|Central,Redfern,Burwood
 Route 12|Central|Strathfield|Central,Redfern,Strathfield
-Route 13|North Sydney|Circular Quay|North Sydney,Milsons Point,Wynyard,Circular Quay
+Route 13|North Sydney|Circular Quay|North Sydney,Milsons Point,Milsons Point Wharf,Circular Quay
 Route 14|UNSW High Street|UNSW Anzac Parade|UNSW High Street,Wansey Road,Royal Randwick,Moore Park,ES Marks,Kensington,UNSW Anzac Parade
 Route 15|Paddy's Markets|Town Hall|Paddy's Markets,Capitol Square,Chinatown,Town Hall
 Route 16|Harris Park|Westmead Hospital|Harris Park,Parramatta,Westmead,Westmead Hospital
@@ -41,3 +41,5 @@ Route 22|East Hills|Villawood|East Hills,Holsworthy,Glenfield,Casula,Liverpool,W
 Route 23|Bankstown|Villawood|Bankstown,Yagoona,Birrong,Regents Park,Sefton,Chester Hill,Leightonfield,Villawood
 Route 24|Town Hall|Museum|Town Hall,Central,Museum
 Route 25|QVB|Haymarket|QVB,Town Hall,Chinatown,Haymarket
+Route F3|Balmain West|Parramatta Wharf|Balmain West,Cockatoo Island,Drummoyne,Huntleys Point,Chiswick,Abbotsford,Cabarita,Kissing Point,Meadowbank Wharf,Sydney Olympic Park,Rydalmere,Parramatta Wharf
+Route F6|Mosman Bay|Circular Quay|Mosman Bay,Old Cremorne,South Mosman,Cremorne Point,Circular Quay
